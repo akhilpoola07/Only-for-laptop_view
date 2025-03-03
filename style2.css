@@ -1,0 +1,787 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: black;
+    align-items: center;
+}
+
+.main {
+
+    width: 50%;
+    height: 3680px;
+    background-color: white;
+
+    margin-left: 25%;
+}
+
+.menu {
+    width: 100%;
+    height: 70px;
+    display: flex;
+
+}
+
+.menu .search-container {
+    width: 50%;
+    height: 50px;
+    display: block;
+    align-content: center;
+    float: left;
+
+}
+
+.menu .for-icon {
+    width: 50%;
+    height: 50px;
+    align-content: center;
+
+
+
+}
+
+.hello {
+    margin-left: 27px;
+    height: 23px;
+    width: 110px;
+    float: left;
+    border: 1px solid rgb(169, 154, 154);
+    border-right: none;
+
+}
+
+.hi button {
+
+    height: 25px;
+    width: 25px;
+    border: 1px solid rgb(169, 154, 154);
+    border-left: none;
+    background: none;
+
+    margin: 0%;
+}
+
+.for-icon {
+    height: 25px;
+    width: 25px;
+    position: relative;
+    left: 40%;
+}
+
+.content1 {
+    width: 100%;
+    height: 420px;
+
+}
+
+.content1 .header {
+    width: 300px;
+    height: 120px;
+
+    margin-left: 35px;
+
+
+}
+
+.content1 .header h1 {
+    font-size: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 35px;
+
+
+}
+
+.content1 .data {
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+
+.data .image {
+    width: 50%;
+    height: 300px;
+
+}
+
+.data .matter {
+
+    width: 50%;
+    height: 300px;
+
+}
+
+.data .image img {
+    height: 300px;
+    width: 340px;
+
+}
+
+.data .data2 .matter {
+    color: rgb(127, 128, 129);
+    padding: 20px 40px 20px 40px;
+    font-size: 15px;
+    width: 80%;
+    height: 100px;
+
+}
+
+.data2 .matter p {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.data2 .hsentence {
+    font-size: 15px;
+    width: 100%;
+    height: 50px;
+    margin-top: 0%;
+    margin-left: 40px;
+}
+
+.data2 .btton {
+    font-size: 10px;
+    width: 100%;
+    height: 100px;
+    margin-top: 0%;
+    margin-left: 40px;
+
+
+}
+
+.contact {
+    border-radius: 100px;
+    color: white;
+    border: none;
+    padding: 5px 22px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1773babd;
+    cursor: pointer;
+    height: 30px;
+    width: 130px;
+}
+
+.main .content2 {
+    width: 100%;
+    height: 750px;
+
+    background-color: hwb(206 91% 6%);
+}
+
+.content2 .c2heading {
+    align-content: center;
+    text-align: center;
+    height: 150px;
+    width: 100%;
+}
+
+.content2 .c2heading h1 {
+    color: #01589b8b;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-top: 30px;
+
+}
+
+.content2 .c2heading p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+.content2 .c2cards {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    align-content: center;
+}
+.card img{
+    margin-left: 70px;
+    color: #01589b8b;
+    height: 50px;
+    width: 50px;
+
+}
+.card h5{
+    margin-top: 0px;
+    color: rgb(102, 171, 218);
+    text-align: center;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0%;
+}
+.card p{
+    margin-top:10px ;
+    text-align: center;
+    font-size: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 10px;
+}
+.card .fas{
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    margin-top: 40px;
+    margin-left:70px;
+    border-radius: 50%;
+    background-color: #01589b8b;
+    border: 1px solid white;
+}
+.card button h1{
+    color: white;
+   
+}
+
+.content2 .c2cards .card {
+    height: 170px;
+    width: 200px;
+    background-color: white;
+    margin-left: 30px;
+    align-content: center;
+}
+
+
+.c2matter {
+    width: 100%;
+    height: 200px;
+    display: flex;
+}
+
+.c2matter .c2image {
+    width: 50%;
+    height: 200px;
+}
+
+.c2matter .c2content {
+    width: 40%;
+    height: 200px;
+
+}
+
+.c2matter .c2content h1 {
+    margin-top: 30px;
+    color: #01589b8b;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.c2matter .c2content p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9px;
+}
+
+.c2matter .c2image img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 100px;
+}
+
+.empty {
+    width: 100%;
+    height: 170px;
+
+}
+
+.para {
+    width: 100%;
+    height: 200px;
+
+    display: flex;
+}
+
+.para .para1 {
+    width: 50%;
+    height: 300px;
+    padding: 20px;
+}
+
+.para .para2 {
+    width: 50%;
+    height: 300px;
+}
+
+.para .para1 p {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 10px 10px 30px;
+    font-size: 10px;
+}
+
+.para .para2 p {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 10px 10px 30px;
+    font-size: 10px;
+    margin-top: 20px;
+}
+
+.para .para2 button {
+    height: 30PX;
+    border-radius: 100px;
+    border: none;
+    color: white;
+    padding: 5px 22px;
+    font-size: 10px;
+    background-color: #2a73ac8b;
+    cursor: pointer;
+    margin-left: 30px;
+
+}
+
+.content3 {
+    height: 500px;
+    width: 100%;
+    background-color: hwb(206 91% 6%);
+
+}
+
+.c3matter {
+    height: 350px;
+    width: 100%;
+    display: flex;
+}
+
+.c3content {
+
+    height: 350px;
+    width: 50%;
+    margin-left: 50px;
+}
+
+.c3lists {
+    height: 350px;
+    width: 40%;
+}
+
+.c3matter h1 {
+    color: #01589b8b;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+.c3matter p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    font-size: 10px;
+}
+
+.c3matter button {
+    margin-top: 20px;
+    font-size: 10px;
+}
+
+.c3lists h4 {
+    margin: 30px 10px 10px 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.c3lists ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+    font-size: 10px;
+    line-height: 20px;
+
+}
+
+.c3cards {
+    height: 150px;
+    width: 100%;
+    display: flex;
+}
+
+.c3cards .card1 {
+    height: 120px;
+    width: 140px;
+    background-color: white;
+    margin-left: 50px;
+    align-content: center;
+}
+
+.c3cards .card2 {
+    height: 120px;
+    width: 140px;
+    background-color: white;
+    margin-left: 20px;
+    align-content: center;
+}
+
+.c3cards .card3 {
+    height: 120px;
+    width: 140px;
+    background-color: white;
+    margin-left: 20px;
+    align-content: center;
+}
+
+.c3cards .card4 {
+    height: 120px;
+    width: 140px;
+    background-color: white;
+    margin-left: 20px;
+    align-content: center;
+}
+
+.c3cards h1 {
+    text-align: center;
+    color: #01589b8b;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.c3cards p {
+    text-align: center;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.content4 {
+    height: 350px;
+    width: 90%;
+    background-color: rgb(100, 150, 195);
+    padding: 5%;
+}
+
+.c4content {
+    height: 30%;
+    width: 100%;
+    display: flex;
+}
+
+.c4content .c4heading {
+    height: 100%;
+    width: 50%;
+    color: white;
+    padding: 20px;
+
+}
+
+.c4content .c4para {
+    height: 40%;
+    width: 50%;
+    padding: 20px;
+    color: white;
+}
+
+.c4heading h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.c4para p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+}
+
+.c4para button {
+    border: 0.5px solid;
+    border-radius: 100px;
+    color: black;
+    padding-top: 7px;
+    border: none;
+    font-size: 10px;
+    background-color: white;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.c4cards {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+}
+
+.c4cards .c4card {
+    flex: 1;
+    min-width: 150px;
+    padding: 10px;
+    text-align: center;
+
+
+}
+
+.c4cards .c4card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+
+}
+
+.c4cards .c4card h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.c4cards .c4card p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.content5 {
+    width: 100%;
+    height: 300px;
+
+}
+
+.content5 .c5head {
+    margin-top: 20px;
+    text-align: center;
+    height: 70px;
+    width: 100%;
+
+}
+
+.content5 .c5head h1 {
+    color: #01589b8b;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.content5 .c5head p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8px;
+    margin-top: 10px;
+}
+
+.content5 .c5cards {
+    height: 200px;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.c5cards .c5card {
+    height: 35px;
+    width: 100%;
+    background-color: rgba(158, 152, 152, 0.24);
+    margin-bottom: 5px;
+    display: flex;
+}
+
+.c5cards .c5card .card {
+    height: 35px;
+    width: 95%;
+    align-content: center;
+
+}
+
+.c5cards .c5card .card h6 {
+    margin-left: 10px;
+}
+
+.c5cards .c5card .symbol {
+    height: 35px;
+    width: 5%;
+}
+
+.content6 {
+    height: 450px;
+    width: 100%;
+
+}
+
+.content6 .c6image {
+    width: 100%;
+    height: 250px;
+
+}
+
+.content6 .c6image img {
+    height: 250px;
+    width: 100%;
+}
+
+.content6 .c6content {
+    width: 50%;
+    height: 80px;
+    margin-left: 25%;
+
+}
+
+.content6 .c6content img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 38%;
+    position: relative;
+    bottom: 30px;
+    margin-bottom: 0%;
+
+}
+
+.content6 .c6matter {
+    width: 80%;
+    height: 180px;
+    margin-left: 10%;
+}
+
+.content6 .c6matter h6 {
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+.content6 .c6matter p {
+    padding: 10px 10px 10px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+.content7 {
+    height: 280px;
+    width: 100%;
+    display: flex;
+   
+}
+
+.content7 .forms {
+    height: 250px;
+    width: 250px;
+    margin-left: 130px;
+   
+}
+
+.content7 .forms h1 {
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin: 10px;
+
+}
+
+.content7 .forms .text {
+    font-size: 8px;
+    padding: 10px 10px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width: 200px;
+
+}
+
+.content7 .forms h6 {
+    margin-top: 10px;
+}
+
+.content7 .forms .msg {
+    height: 70px;
+}
+
+.content7 .forms .permissions {
+
+    width: 200px;
+    height: 15px;
+    display: flex;
+    margin-top: 10px;
+
+}
+
+.content7 .forms .permissions .boxe {
+    height: 20px;
+    width: 20px;
+    display: inline-grid;
+}
+
+.boxe input {
+    height: 9px;
+    margin: 0%;
+}
+
+.permissions p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9px;
+}
+
+.forms .Submit {
+    width: 220px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 22px;
+    font-size: 8px;
+    background-color: #2a73ac8b;
+    cursor: pointer;
+
+}
+
+.area {
+    margin-top: 10px;
+    margin-left:20px ;
+    height: 270px;
+    width: 180px;
+    background-color: rgba(102, 86, 86, 0.171);
+
+
+}
+
+.area .call {
+    margin-top: 30px;
+    height: 70px;
+    width: 100%;
+    align-content: center;
+}
+
+.area .loc {
+    height: 70px;
+    width: 100%;
+    align-content: center;
+}
+
+.area .services {
+    height: 50px;
+    width: 100%;
+    align-content: center;
+}
+
+.area h5 {
+    color: rgb(102, 171, 218);
+    text-align: center;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0%;
+}
+
+.area p {
+    margin-top:10px ;
+    text-align: center;
+    font-size: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 10px;
+}
+
+.area .services h6 {
+    text-align: center;
+    font-size: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 0%;
+    line-height: 10px;
+    margin-top: 10px;
+}
+.footer{
+    margin-top: 20px;
+    height: 80px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.822);
+    color: white;
+    align-content: center;
+}
+.footer p{
+    font-size: 8px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
